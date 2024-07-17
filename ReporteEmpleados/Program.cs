@@ -74,7 +74,7 @@ class Program
         {
             Console.WriteLine("Iniciando envío de correo");
             // Enviar correo electrónico con el reporte adjunto
-            SendEmailWithAttachment("chuamanlostaunau@hotmail.com", "Reporte Empleados - Examen Técnico Oechsle", "Adjunto se encuentra el reporte solicitado.", file.FullName);
+            SendEmailWithAttachment("franco.paredes@oechsle.pe", "Reporte Empleados - Examen Técnico Oechsle", "Adjunto se encuentra el reporte solicitado.", file.FullName);
             Console.WriteLine("Correo enviado");
         }
         catch (Exception ex)
